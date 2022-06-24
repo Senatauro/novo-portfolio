@@ -1,0 +1,32 @@
+.section-about-desc{
+    font-size: 1.1em;
+    color: #ccc;
+    margin-top: 1em;
+    line-height: 1.5em;
+    width: 85%;
+}
+
+.accent-love{
+    color: #ffc0cb;
+    animation: love 2s ease-in-out infinite;
+}
+
+
+@keyframes love {
+    0%{
+        color: #ffc0cb;
+    }
+    50%{
+        color: #ff0000;
+    }
+    100%{
+        color: #ffc0cb;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .section-about-desc {
+      width: 100%;
+    } 
+}

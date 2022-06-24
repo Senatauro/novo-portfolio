@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  box-sizing: border-box;
+  scrollbar-width: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body, h1, h2, h3, h4, h5, p {
+  margin: 0;
+  color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  background-image: url(https://r4.wallpaperflare.com/wallpaper/446/797/274/gradient-simple-minimalism-texture-wallpaper-d8462c1abf5c67b99e60a9d232a98ba0.jpg);
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  } 
 }

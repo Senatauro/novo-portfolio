@@ -1,0 +1,44 @@
+.section-project-container{
+    margin: auto;
+    width: 75%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.project-content{
+    width: 100%;
+}
+
+.project-desc{
+    width: 100%;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 12px;
+}
+
+.project-cards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 16px;
+    gap: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    .section-project-container{
+        gap: 36px;
+        flex-direction: column;
+    }
+}

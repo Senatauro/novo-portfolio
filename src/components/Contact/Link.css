@@ -1,0 +1,11 @@
+.contact-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-link{
+    margin: 24px;
+    font-size: 2.5em;
+    justify-self: center;
+    align-self: center;
+}
